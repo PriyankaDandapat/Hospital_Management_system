@@ -1,0 +1,38 @@
+.booking-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.booking-container h2{
+    padding-top: 2rem;
+ }
+.header-cooking-conatiner{
+    width: 80%;
+    border-bottom: 1px solid rgba(13, 109, 253, 0.50) ;
+
+}
+
+.container{
+    width: 60%;
+    padding: 3rem;
+    background-color: rgba(13, 109, 253, 0.15);
+    border-radius: 2rem;
+    border: 1px solid rgba(13, 109, 253, 0.397);
+}
+.doctor-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doctor-icon{
+    font-size: 6rem;
+    margin: 0 4rem;
+}
+.doctor-info-body{
+    font-size: 2rem;
+}

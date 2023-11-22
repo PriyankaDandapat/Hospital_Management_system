@@ -1,0 +1,63 @@
+.body_whole{
+    padding: 1rem;
+    margin: 0;
+}
+
+.applydrform h2{
+    color: rgb(10, 91, 213);
+    text-align: center;
+    width: 60rem;
+    font-weight: bold;
+}
+.applydrform{
+   width:auto;
+   display: flex;
+   justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.FormDr{
+    width: 70rem;
+    padding: 2rem;
+    border: 1px solid rgb(13,110,253,0.30);
+    background-color:rgba(10, 91, 213, 0.20) ;
+   /* padding-left: 8rem; */
+   border-radius: 2rem;
+}
+.FormDr h6{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    border-bottom: 1px solid rgba(13, 109, 253, 0.50);
+}
+
+label.ant-form-item-required{
+   width: 10rem;
+   font-weight: 500;
+}
+.btn-submit{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: rgb(13,110,253);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.btn-submit:hover{
+    margin: 0.5rem;
+    padding: 0.6rem;
+    width: 18rem;
+    background-color: rgb(8, 97, 229);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* input#phone{
+    width: 30rem;
+} */

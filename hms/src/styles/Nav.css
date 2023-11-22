@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+
+  .nav-link:hover{
+    color: rgb(0, 85, 255) !important;
+   
+  }
+.btn-primary-nav{
+    background-color: rgb(0, 85, 255) ;
+    border: none;
+    margin: 0 1rem;
+    padding: 0.4rem 0.6rem;
+    width:5rem;
+    color: white;
+
+}
+.btn-primary-nav:hover{
+    background-color: rgb(2, 57, 168) ;
+    color: white;
+}

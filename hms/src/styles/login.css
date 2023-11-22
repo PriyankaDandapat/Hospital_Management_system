@@ -1,0 +1,114 @@
+.wholepage_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   background: url('../assets/finalbg.avif');
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 0;
+   margin: 0;
+   
+} 
+ .overlay-whole {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.552); /* Semi-transparent black */
+    z-index: 1; /* Places the overlay above the image */
+  }
+.form-img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh; 
+    margin-left: 40vh; 
+    width: max-content;
+    border: 0.3vh solid rgba(0, 0, 0, 0.655);
+    box-shadow: 0.8vh 0.8vh 0.8vh black;
+    border-radius: 4vh;
+
+}
+.side-image {
+    width:65vh;
+    height: 70vh;
+    position: relative;
+    width: 30;
+    background-image: url('../assets/option1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.446); /* Semi-transparent black */
+    color: white;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay img {
+    width: 10vh;
+    height: 10vh;
+    
+  }
+  .overlay p {
+    color:white;
+   font-size: 1rem;
+   padding: 2rem;
+   text-align: center;
+    
+  }
+  .overlay h3{
+   color:white;
+   font-size: 3rem;
+    
+  }
+
+.form-body{
+    background-color: rgba(255, 255, 255, 0.705);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   width:65vh;
+   border-top-right-radius: 4vh;
+   border-bottom-right-radius: 4vh;
+
+
+}
+.form-body h2{
+    margin-top: 0;
+    margin-top: 0;
+    margin-bottom: 5vh;
+    font-size: 3rem;
+    color:rgb(0, 85, 255);
+    text-shadow: 0.3vh 0.3vh 0.2vh rgba(0, 0, 0, 0.534);
+}
+.login-form{
+    text-align: center;   
+    width: 80% !important;
+    border-radius: 2%;
+    
+}
+.login-form-button{
+    background-color:  rgb(0, 85, 255);
+    margin-right: 2vh;
+    width: 50vh;
+}

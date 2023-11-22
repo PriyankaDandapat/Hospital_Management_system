@@ -1,0 +1,13 @@
+
+.Copyrightfooter{
+    width: 100%;
+    background-color:rgb(97, 97, 97)!important;
+    text-align: center;
+    
+}
+.footercontent{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
