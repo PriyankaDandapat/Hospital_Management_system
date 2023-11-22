@@ -8,7 +8,7 @@
     "start": "node server.js",
     "server": "nodemon serevr.js",
     "hms": "npm start --prefix ./hms",
-    "dev": "concurrently \"npm run server\" \"npm run hms\""
+    "dev": "concurrently \"npm start\" \"npm run hms\""
   },
   "keywords": [],
   "author": "cdhar",
